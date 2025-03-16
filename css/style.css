@@ -1,0 +1,81 @@
+.centroprincipal{
+    text-align: center;
+}
+/*rodpé inicio*/
+.rodape{
+    position: fixed; 
+    bottom: 0; 
+    text-align: center; 
+    padding: 10px;
+    font-style: Arial;
+    font-size: larger;
+}
+/*fim rodpé inicio*/
+
+.footer{
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #f8f9fa; /* Cor de fundo */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Gruda no final da página */
+    width: 100%; /* Ocupa toda a largura */
+}
+
+/*centro escritas*/
+.centro{
+    text-align:justify;
+}
+
+.centro p{
+    font-style: arial;
+    font-size: larger;
+}
+/*fim centro escritas*/
+
+.rodapecont{
+    display: flex;
+    justify-content: center; /* Centraliza os itens na horizontal */
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Adiciona espaçamento entre os itens */
+    padding: 15px;
+    background-color: #f8f9fa; /* Cor de fundo */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.rodapecont a{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto mais destacado */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza o link horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 80px; /* Ajuste a altura do cabeçalho */
+    background-color: #f8f9fa; /* Cor de fundo do cabeçalho */
+}
+
+.navbar-nav {
+    list-style: none; /* Remove os pontos da lista */
+    padding: 0;
+    margin: 0;
+    color: #333;
+    align-items: center;
+    height: 165px;
+}
+  
+.navbar-nav .nav-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #333;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    transition: background-color 0.30s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: darkgreen; /* Fica mais escuro ao passar o mouse */
+}
